@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA DE OVOS</title>
+</head>
+
+<h2>NAVEGAÇÃO</h2>
+<NAV>
+    <UL>
+        <LI> <a href="Index.html">Página Inicial</a> </LI>
+        <li> <a href="index2.html">Listas e citações</a> </li>
+        <li> <a href="/CAIXADEOVO/index2.html">Listas e citações porém em outra pasta</a> </li>
+        <li> <a href="index3.html">links e fragmentos</a> </li>
+        <li> <a href="/PASTEL/Index.html">Página inicial só que em outra pasta</a> </li>
+    </UL>
+</NAV>
+
+<body>
+    <H1>TABELA DOS OVOS</H1>
+    <P>Vamos tabelar</P>
+    <table>
+        <caption>
+            tabela simples
+        </caption>
+        <thead>
+            <tr>
+                <th>ovo</th>
+                <th>qtd</th>
+                <th>valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ovo roxo</td>
+                <td>dúzia</td>
+                <td>2,50</td>
+            </tr>
+            <tr>
+                <td>ovo branco</td>
+                <td>12</td>
+                <td>5,50</td>
+            </tr>
+            <tr>
+                <td>ovo caipira</td>
+                <td>duas meia dúzia</td>
+                <td>à combinar</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>frete</td>
+                <td>pegar no carro do ovo</td>
+                <td>grátis</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br><br>
+    <table>
+        <caption>tabela complexa</caption>
+        <colgroup>
+        <col>
+        <col span="2" style="background-color: blueviolet;">
+        <col span="2" style="background-color:brown;">
+        
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">ovo pequeno</th>
+                <th colspan="2" scope="colgroup ">ovo grande</th>
+            </tr>
+            <tr>
+                <th scope="col">botados</th>
+                <th scope="col">chocados</th>
+                <th scope="col">botados</th>
+                <th scope="col">chocados</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">ovo roxo</th>
+                <td>10</td>
+                <td>20</td>
+                <td>30</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <th scope="row">ovo branco</th>
+                <td>10</td>
+                <td>20</td>
+                <td>30</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <th scope="row">ovo caipira</th>
+                <td>10</td>
+                <td>20</td>
+                <td>30</td>
+                <td>40</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
